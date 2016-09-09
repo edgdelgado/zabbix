@@ -19,7 +19,7 @@ snapshotslld.txt
 ``` 
 
 
-snapshotsinfo.txt
+snapshotsinfo.txt ("Nome do item","tamanho em bytes","dias desde a criação do snapshot")
 ```sh
 #TYPE Selected.VMware.VimAutomation.ViCore.Impl.V1.VM.SnapshotImpl
 "nmzbx","sizeb","tempo"
