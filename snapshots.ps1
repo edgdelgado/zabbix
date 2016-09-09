@@ -7,7 +7,7 @@ $vmwlogin   = "*"
 $vmwpwd     = "*"
 $vmwdc      = "*"
 
-#Parâmetro de conexão com o vcenter [Argumentos externos]
+#Parâmetros de conexão com o vcenter [Argumentos externos]
 #$vmwserver  = $args[0]
 #$vmwlogin   = $args[1]
 #$vmwpwd     = $args[2]
