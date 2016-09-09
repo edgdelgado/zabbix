@@ -74,10 +74,10 @@ Select-Object  @{N="nmzbx"; E={""+$_.VM+"("+$_.Name+")"+$_.Children}},
 ## [FIM] Função coletar informações de tamanho em bytes e dias em que o snapshot foi criado
 
 # Exportar TXT do JSON para utilização do LLD.
-get-lldsnapshots 6>&1 | out-file C:\zabbix\snapshotsinfo.txt
+get-lldsnapshots 6>&1 | out-file C:\zabbix\snapshotsllf.txt
 
 # Exportar TXT tabulado para coleta dos dados de tamanho e dias de snapshot.
-get-snapshotinfos 6>&1 | Export-Csv C:\zabbix\snapshotslld.txt
+get-snapshotinfos 6>&1 | Export-Csv C:\zabbix\snapshotsinfo.txt
 
 
 
