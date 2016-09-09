@@ -6,7 +6,7 @@ Entretanto o arquivo snapshot.ps1 verifica e cria 2 arquivos.
 
 
 snapshotslld.txt
-
+```sh
 {
 	 "data":[
 
@@ -16,12 +16,13 @@ snapshotslld.txt
 
 	 ]
 }
-
+``` 
 
 
 snapshotsinfo.txt
-
+```sh
 #TYPE Selected.VMware.VimAutomation.ViCore.Impl.V1.VM.SnapshotImpl
 "nmzbx","sizeb","tempo"
 "NOME_VM(Nome_SNAPSHOT)Nome_SnapShotPAI","7487060601","14"
 "NOME_VM2(Nome_SNAPSHOT2)","20559","43"
+```
